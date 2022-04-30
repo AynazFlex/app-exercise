@@ -1,0 +1,217 @@
+@keyframes anim1 {
+    0% {transform: translate(0, 0)}
+    10.8% {transform: translate(-14px, -28px)}
+    64.3% {transform: translate(49px, 98px)}
+    100% {transform: translate(0, 0)}
+}
+
+.anim-img_1 {
+    left: 22px;
+    bottom: 193px;
+    width: 73px;
+    height: 71px;
+    background: url(img/anim/bakti_1.webp) no-repeat;
+    animation: anim1 20s linear 1s infinite normal;
+}
+
+@keyframes anim2 {
+    0% {transform: translate(0, 0)}
+    33.3% {transform: translate(14px, 14px)}
+    66.6% {transform: translate(-14px, -14px)}
+    100% {transform: translate(0, 0)}
+}
+
+.anim-img_2 {
+    left: 744px;
+    top: 62px;
+    width: 63px;
+    height: 57px;
+    background: url(img/anim/Layer5.webp) no-repeat;
+    animation: anim2 10s linear 1s infinite normal;
+}
+
+@keyframes anim3 {
+    0% {transform: translate(0, 0) rotate(0deg)}
+    25% {transform: translate(10px, -70px) rotate(90deg)}
+    50% {transform: translate(20px, 0px) rotate(180deg)}
+    75% {transform: translate(10px, 70px) rotate(270deg)}
+    100% {transform: translate(0, 0) rotate(360deg)}
+}
+
+.anim-img_3 {
+    z-index: 2;
+    left: 790px;
+    top: 150px;
+    width: 110px;
+    height: 113px;
+    background: url(img/anim/Layer8.webp) no-repeat;
+    animation: anim3 20s linear 1s infinite normal;
+}
+
+@keyframes anim4 {
+    0% {transform: translate(0, 0) scale(1)}
+    25% {transform: translate(0, 0) scale(1.2)}
+    50% {transform: translate(-40px, -40px) scale(1)}
+    75% {transform: translate(0, 0) scale(1.2)}
+    100% {transform: translate(0, 0) rotate(1)}
+}
+
+.anim-img_4 {
+    left: 542px;
+    top: 641px;
+    width: 226px;
+    height: 224px;
+    background: url(img/anim/Layer4.webp) no-repeat;
+    animation: anim4 20s linear 1s infinite normal;
+}
+
+.anim-img_5 {
+    z-index: 1;
+    left: 450px;
+    top: 200px;
+    width: 588px;
+    height: 92px;
+    background: url(img/anim/pink_sperm_1.webp) no-repeat;
+}
+
+.anim-img_17 {
+    z-index: 1;
+    left: -107px;
+    top: 72px;
+    width: 214px;
+    height: 116px;
+    background: url(img/anim/Layer7.png) no-repeat;
+}
+
+.anim-img_6 {
+    left: -138px;
+    top: 593px;
+    width: 414px;
+    height: 183px;
+    background: url(img/anim/pink_sperm_2.webp) no-repeat;
+}
+
+.anim-img_7 {
+    left: 374px;
+    top: 631px;
+    width: 84px;
+    height: 77px;
+    background: url(img/anim/Layer4_copy.webp) no-repeat;
+}
+
+.anim-img_8 {
+    left: 1390px;
+    top: 98px;
+    width: 1025px;
+    height: 477px;
+    background: url(img/anim/Layer3_copy_6.webp) no-repeat;
+    transition: 3s;
+}
+
+.anim-img_9 {
+    left: 1608px;
+    top: 97px;
+    width: 729px;
+    height: 342px;
+    background: url(img/anim/Layer3_copy_2.webp) no-repeat;
+    transition: 3s;
+}
+
+.anim-img_10 {
+    left: 1734px;
+    top: 74px;
+    width: 414px;
+    height: 197px;
+    background: url(img/anim/Layer3_copy_4.webp) no-repeat;
+    transition: 3s;
+}
+
+.anim-img_11 {
+    left: 1913px;
+    top: 411px;
+    width: 730px;
+    height: 342px;
+    background: url(img/anim/Layer3_copy_3.webp) no-repeat;
+    transition: 3s;
+}
+
+.anim-img_12 {
+    left: 1909px;
+    top: 514px;
+    width: 324px;
+    height: 157px;
+    background: url(img/anim/Layer3_copy_5.webp) no-repeat;
+    transition: 3s;
+}
+
+@keyframes anim13 {
+    0% {transform: translate(0, 0)}
+    33.3% {transform: translate(14px, 14px)}
+    66.6% {transform: translate(-14px, -14px)}
+    100% {transform: translate(0, 0)}
+}
+
+.anim-img_13 {
+    right: 698px;
+    top: 703px;
+    width: 142px;
+    height: 142px;
+    z-index: 4;
+    background: url(img/anim/6.webp) no-repeat;
+    animation: anim13 10s linear 1s infinite normal;
+}
+
+@keyframes anim14 {
+    0% {transform: translate(0, 0)}
+    33.3% {transform: translate(-8px, -8px)}
+    66.6% {transform: translate(8px, 8px)}
+    100% {transform: translate(0, 0)}
+}
+
+.anim-img_14 {
+    right: 924px;
+    top: 553px;
+    width: 74px;
+    height: 74px;
+    z-index: 4;
+    background: url(img/anim/8.webp) no-repeat;
+    animation: anim14 8s linear 1s infinite normal;
+}
+
+@keyframes anim15 {
+    0% {transform: translate(0, 0)}
+    33.3% {transform: translate(-12px, 12px)}
+    66.6% {transform: translate(12px, -12px)}
+    100% {transform: translate(0, 0)}
+}
+
+.anim-img_15 {
+    right: 980px;
+    top: 453px;
+    width: 33px;
+    height: 33px;
+    z-index: 4;
+    background: url(img/anim/7.webp) no-repeat;
+    animation: anim15 5s linear 1s infinite normal;
+}
+
+@keyframes anim16 {
+    0% {transform: scale(1)}
+    50% {transform: scale(1.5)}
+    100% {transform: scale(1)}
+}
+
+.anim-img_16 {
+    right: 772px;
+    top: 155px;
+    width: 68px;
+    height: 68px;
+    z-index: 4;
+    background: url(img/anim/5.webp) no-repeat;
+    animation: anim16 10s linear 1s infinite normal;
+}
+
+.anim-no-active {
+    transform: translate(100px, 50px);
+    opacity: 0.2;
+}

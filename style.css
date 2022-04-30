@@ -1,0 +1,365 @@
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.root {
+    position: relative;
+}
+
+.wrapper {
+    width: 1024px;
+    background: url(img/bg.webp) no-repeat;
+    background-size: cover;
+    height: 768px;
+    overflow: hidden;
+}
+
+.root_home-button {
+    position: absolute;
+    z-index: 1;
+    top: 25.5px;
+    left: 66px;
+}
+
+.root_home-button img {
+    width: 153px;
+    height: 25.5px;
+}
+
+.root_company-name {
+    position: absolute;
+    z-index: 4;
+    bottom: 13px;
+    left: 69.5px;
+}
+
+.root_company-name img {
+    width: 57px;
+    height: 12px;
+}
+
+.containers {
+    position: relative;
+    display: flex;
+    width: 300%;
+    height: 100%;
+}
+
+.container_param {
+    position: relative;
+    width: 1024px;
+    height: 100%;
+}
+
+.container_text_1 {
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    font-weight: 900;
+    line-height: 30px;
+    color: #242424;
+    margin: 168.5px 0 0 69px;
+}
+
+.container_1_text_2 {
+    text-transform: uppercase;
+    font-size: 109.5px;
+    letter-spacing: 5.5px;
+    line-height: 109.5px;
+    color: #171717;
+    font-weight: normal;
+    margin: 56px 0 0 69px;
+}
+
+.wrapper_next-box {
+    position: absolute;
+    bottom: 197px;
+    right: 108.5px;
+}
+
+.wrapper_next-box img {
+    width: 288.5px;
+    height: 80.5px;
+}
+
+.wrapper_scroll-line {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 445px;
+    border-radius: 2.5px;
+    background-color: #000000;
+    margin: 14.5px 0 0 69px;
+}
+
+.wrapper_scroll-line img {
+    position: absolute;
+    left: -7.5px;
+    height: 104px;
+    width: 20px;
+}
+
+.container_2_text_2 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 775px;
+    height: 445px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    margin: 14.5px 0 0 35.5px;
+    padding: 40px;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.container_3_image {
+    position: absolute;
+    left: 46px;
+    top: 70px;
+    z-index: 3;
+}
+
+.container_3_image img {
+    width: 248px;
+    height: 698px;
+}
+
+.container_3_text_1 {
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    color: #242424;
+    line-height: 27px;
+    margin: 170px 0 0 354px;
+}
+
+.container_3_text_2 {
+    font-size: 96px;
+    letter-spacing: 11px;
+    line-height: 96px;
+    margin: 26px 0 0 345px;
+    color: #242424;
+}
+
+.container_3_info-blocks {
+    display: flex;
+    margin: 96px 0 0 222px;
+    align-items: flex-start;
+}
+
+.container_3_info-block {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 40px;
+    font-size: 16px;
+    flex-grow: 0;
+    color: #2e2e2e;
+    background-color: #f7f7f7;
+}
+
+.block_1 {
+    width: 413px;
+    padding: 49px 46px 78px 130px;
+}
+
+.block_2 {
+    width: 263px;
+    margin: 0 0 0 65px;
+    padding: 49px 88px 53px 42px;
+}
+
+.block_1::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(img/icon2.webp) no-repeat;
+    background-size: cover;
+    left: 130px;
+    top: -31px;
+    width: 67px;
+    height: 63px;
+}
+
+.block_2::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: url(img/icon1.webp) no-repeat;
+    background-size: cover;
+    left: 42px;
+    top: -28px;
+    width: 70px;
+    height: 57px;
+}
+
+.container_3_btn-more {
+    position: absolute;
+    top: 565px;
+    left: 681px;
+}
+
+.container_3_btn-more img {
+    width: 263px;
+    height: 80px;
+}
+
+.wrapper_modal-window {
+    z-index: 2;
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(22, 39, 62, 0.2);
+}
+
+.modal-window_info {
+    position: relative;
+    width: 822px;
+    height: 573px;
+    margin: 108px 0 0 141px;
+    border-radius: 40px;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+.modal-window_close {
+    position: absolute;
+    top: 33px;
+    right: 37px;
+    width: 34px;
+    height: 34px;
+}
+
+.modal-window_close::before,
+.modal-window_close::after {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 16px;
+    width: 47px;
+    height: 2px;
+    background: black;
+}
+
+.modal-window_close::before {
+    transform: rotate(45deg);
+}
+
+.modal-window_close::after {
+    transform: rotate(-45deg);
+}
+
+.modal-info-1 {
+    margin: 61px 0 0 213px;
+}
+
+.modal-info-2 {
+    margin: 27px 0 0 204px;
+}
+
+.modal_list {
+    margin: 48px 0 0 213px;
+    font-size: 20px;
+}
+
+.modal_list_1-list {
+    counter-reset:list1 0;
+}
+
+.modal_list_2-list {
+    counter-reset:list2 3;
+}
+
+.modal_list_1-list li {
+    counter-increment:list1 1;
+}
+
+.modal_list_2-list li {
+    counter-increment:list2 1;
+}
+
+.modal_list_1-list,
+.modal_list_2-list {
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.modal_list li {
+    list-style-type: none;
+    margin: 0 0 22px 0;
+    color: #2e2e2e;
+    font-weight: 800;
+}
+
+.modal_list_1-list li::before {
+    content: '0' counter(list1);
+}
+
+.modal_list_2-list li::before {
+    content: '0' counter(list2);
+}
+
+.modal_list_1-list li::before,
+.modal_list_2-list li::before {
+    display: block;
+    margin: 0 0 18px 0;
+    font-size: 25px;
+    line-height: 25px;
+    color: #8cc9e8;
+    font-weight: 800;
+}
+
+.pagination {
+    margin: 27px 0 0 213px;
+    font-size: 0;
+}
+
+.pagination_back,
+.pagination_next {
+    width: 9px;
+    height: 15px;
+}
+
+.pagination_back {
+    transform: rotate(180deg);
+}
+
+.pagination_points {
+    display: inline-block;
+    margin: 2px 10px;
+    overflow: hidden;
+}
+
+.pagination_point-1,
+.pagination_point-2 {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 11px;
+    height: 11px;
+    margin: 0px 2px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    transition: 0.5s;
+}
+
+.active-point {
+    background-color: #fc6da9;
+    border: none;
+    transition: 0.5s;
+}
+
+@keyframes anim_modal_open {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+}
+
+.active {
+    display: block;
+    animation: anim_modal_open 500ms;
+}
